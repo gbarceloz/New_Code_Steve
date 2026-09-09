@@ -1,10 +1,7 @@
-public interface Picareta {
+public class Picareta {
 
-    void fabricarPicareta(String material);
-
-    void minerar(String material);
-
-
-    void repararPicareta(String material);
+    private String material;
+    private int durabilidade;
+    private int forca;
 
 }
